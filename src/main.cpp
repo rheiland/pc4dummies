@@ -59,7 +59,7 @@ int main( int argc, char* argv[] )
 	std::cout << std::endl << "Start... " << std::endl; 
 	char filename[1024];
 	std::ofstream myfile;
-	for (int idx=1; idx<100; idx++)
+	for (int idx=1; idx<10; idx++)
 	{
 		// sprintf( filename , "%s/initial" , PhysiCell_settings.folder.c_str() ); 
 		sprintf( filename , "snapshot%08d.svg" , idx ); 
